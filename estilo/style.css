@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --pedra: #8a766e;
+    --tronco: #8a7953;
+    --folha: #07b11b;
+    --sol: #EFFA19;
+    --ceu: #436981;
+    --agua: blue; 
+    --onda: #f5f5dc; 
+}
+ body {
+     background-color: var(--ceu);
+ }
+
+#nuvem1 > p {
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: -4%;
+}
+
+#nuvem2 > p {
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: -4%;
+    text-align: right;
+}
+
+#nuvem2 {
+    direction: rtl;
+}
+
+#sol {
+    width: 400px;
+    height: 180px; 
+    background-color: rgb(168, 167, 161);
+    border-top-left-radius: 220px;  
+    border-top-right-radius: 220px;
+    margin: 100px auto 0px auto;
+}
+
+#reflexo-sol > p {
+    width: 237px;
+    height: 2px;
+    background-color: #f2ff025e;
+    margin: 0px auto -20px auto;
+    border-bottom-left-radius: 230px;
+    border-bottom-right-radius: 213px;
+    box-shadow: 0px 0px 85px 125px #f2ff025e;
+}
+
+
+
+#mar {
+    background-color: var(--agua);
+    height: 239px;
+}
+
+#vela > p {
+    width: 0;
+    height: 0px;
+    border-top: 14px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid #4C4B63;
+    margin: -20px 72% auto auto;
+}
+
+#barco1 > p {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 17px solid #4C4B63;
+    margin: -9px 74% auto auto;
+}
+
+#barco2 > p {
+    width: 36px;
+    height: 16px;
+    border-top: 17px solid #4C4B63;
+    margin: -17px 72% auto auto;
+}
+
+#barco3 {
+    width: 0;
+    height: 0;
+    border-top: -1px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-left: 27px solid #4C4B63;
+    margin: -33px 70.2% auto auto;
+}
+
+
+#onda {
+    height: 0px;
+}
+
+#onda > p {
+    background-image: linear-gradient(to top, var(--onda), var(--agua));
+    display: inline-block;
+    width: 100%;
+    height: 143px;
+    background-color: gold;
+    margin: -27px -6px 0px auto;
+}
+
+#praia {
+    background-color: var(--onda);
+    height: 202px;
+}
+
+#pedra1 {
+    height: 79px;
+    width: 71px;
+    margin: -79px 0% auto auto;
+    background-color: #65657a ;
+    border-radius: 60px 84px -81px 20px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 35px;
+    padding-right: 5px;
+}
+
+
+#pedra2 {
+    height: 60px;
+    width: 50px;
+    margin: -60px 4% auto auto;
+    background-color: #65657a ;
+    border-radius: 60px 84px -81px 20px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 35px;
+}
+
+
+
